@@ -1,0 +1,13 @@
+.container {
+  color: red;
+}
+
+.container:hover {
+  color: green;
+}
+
+@media (min-width: $minWidth) {
+  .container {
+    color: blue;
+  }
+}
